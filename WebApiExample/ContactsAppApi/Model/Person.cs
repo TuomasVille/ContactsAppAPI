@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace ContactsAppApi.Model
+namespace WebApiExample.Model
 {
     public partial class Person
     {

@@ -1,19 +1,17 @@
-﻿using ContactsAppApi.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApiExample.Model;
 
-
-namespace ContactsAppApi.Services
+namespace WebApiExample.Repositories
 {
-    public interface IPersonService
+    public interface IPersonRepository
     {
-        //CRUD
         Person Create(Person person);
         List<Person> Read();
         Person Read(int id);
-        Person Update(int id, Person person);
+        Person Update(Person person);
         void Delete(int id);
     }
 }

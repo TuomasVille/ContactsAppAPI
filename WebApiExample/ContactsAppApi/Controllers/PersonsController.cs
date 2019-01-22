@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ContactsAppApi.Model;
+using WebApiExample.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ContactsAppApi.Repositories;
-using ContactsAppApi.Services;
+using WebApiExample.Repositories;
+using WebApiExample.Services;
 
-namespace ContactsAppApi.Controllers
+namespace WebApiExample.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

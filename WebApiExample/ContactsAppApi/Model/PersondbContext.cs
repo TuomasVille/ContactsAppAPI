@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace ContactsAppApi.Model
+namespace WebApiExample.Model
 {
     public partial class PersondbContext : DbContext
     {

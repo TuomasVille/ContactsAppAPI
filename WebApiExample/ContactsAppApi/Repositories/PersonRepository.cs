@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ContactsAppApi.Model;
+using WebApiExample.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace ContactsAppApi.Repositories
+namespace WebApiExample.Repositories
 {
     public class PersonRepository : IPersonRepository
     {
@@ -34,6 +34,7 @@ namespace ContactsAppApi.Repositories
         public List<Person> Read()
         {
             return _context.Person
+                .AsNoTracking()
                 .Include(p => p.Phone)
                 .ToList();
         }

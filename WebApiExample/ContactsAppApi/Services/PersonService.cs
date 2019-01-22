@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ContactsAppApi.Model;
-using ContactsAppApi.Repositories;
+using WebApiExample.Model;
+using WebApiExample.Repositories;
 
-namespace ContactsAppApi.Services
+namespace WebApiExample.Services
 {
     public class PersonService : IPersonService
     {
